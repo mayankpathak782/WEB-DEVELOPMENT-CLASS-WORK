@@ -1,0 +1,35 @@
+<!------------------------------------DOM(Document Object Model)------------------------------
+	the document object model represents the whole html document. 
+	when the document loaded in the browser it becomes document object.
+
+	there are predefined function of DOM-
+
+	1. document.getElementById() 
+
+	2. document.getElementByName()
+
+
+------------------------------------------------------------->
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript">
+		function abc()
+		{
+			var a= document.mona.n.value;
+			alert("Welcome"+" "+a);
+		}
+	</script>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<form name="mona">
+		Enter Your Name<input type="text" placeholder="Enter Your Name" name="n">
+		<input type="submit" value="Please Click Here" onclick="abc()" name="">
+
+	</form>
+
+</body>
+</html>	 

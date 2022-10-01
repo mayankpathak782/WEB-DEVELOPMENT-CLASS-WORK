@@ -1,0 +1,118 @@
+#header{
+	border: 1px solid red;
+	height: 170px;
+	width: 900px;
+	margin: auto;
+	font-size: 40px;
+	text-align: center;
+	background: -webkit-linear-gradient(blue, red, green, pink, deeppink, yellow,tomato, white, cyan, violet, green, black, orange);
+}
+#aa{
+	height: 280px;
+	width: 300px;
+	border: 1px solid darkred;
+	margin-left: 223px;
+	float: left;
+
+}
+#bb{
+	height: 280px;
+	width: 300px;
+	border: 1px solid darkred;
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+#cc{
+	height: 280px;
+	width: 298px;
+	border: 1px solid darkred;
+	float: left;
+	overflow: hidden;
+	transition: height 2s, width 2s, transform 2s;
+}
+#cc:hover{
+	height: 280px;
+	width: 298px;
+	transform: rotate(360deg);
+}
+p{
+	text-align: center;
+	color: white;
+    margin: auto;
+    padding-top: 10px;
+}
+#ma{
+	background-color: black;
+	height: 40px;
+	width: 148px;
+	border: 1px solid darkred;
+    margin-left: 223px;
+	float: left;
+}
+#dd{
+	height: 40px;
+	width: 150px;
+	border: 1px solid darkred;
+	float: left;
+	text-align: center;
+	background-color: black;
+	color: white;
+}
+#ee{
+	text-align: center;
+	background-color: black;
+	color: white;
+	height: 40px;
+	width: 150px;
+	border: 1px solid darkred;
+	float: left;
+}
+#ff{
+	text-align: center;
+	background-color: black;
+	color: white;
+	height: 40px;
+	width: 150px;
+	border: 1px solid darkred;
+	float: left;
+}
+#gg{
+	text-align: center;
+	background-color: black;
+	color: white;
+	height: 40px;
+	width: 150px;
+	border: 1px solid darkred;
+	float: left;
+}
+#hh{
+	text-align: center;
+	background-color: black;
+	color: white;
+	height: 40px;
+	width: 144px;
+	border: 1px solid darkred;
+	float: left;
+}
+#ii{
+	border: 1px solid red;
+	height: 100px;
+	text-align: center;
+	width: 904px;
+	margin-left: 222px;
+	margin-top: 324px;
+	color: darkred;
+	font-size: 30px;
+	font-weight: bold;
+	background: -webkit-radial-gradient(blue, red, green, pink, deeppink, yellow,tomato, white, cyan, violet, green, black, orange);
+}
+table{
+	border: 2px solid;
+	cellpadding: 5px;
+	cellspacing: 10px;
+
+}
+
+

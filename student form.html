@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Student Registration Form</title>
+</head>
+<body style="background-color: #5518b7c7;">
+	<center>
+		<h1 style="color:#00ffc4">Student Registration Form</h1>
+		<form>
+			<table  border="3" cellpadding="5" cellspacing="2" align="center">
+				<tr><td><b><label> STUDENT NAME</label></b></td>
+					<td><input class="form-control" type="text" name="Student Name"></td></tr>
+					<tr><td><b><label> STUDENT ROLL NO</label></b></td>
+					<td><input class="form-control" type="text" name="Student Roll No"></td></tr>
+					<tr><td><b><label>GENDER</label></b></td>
+						<td><input type="radio" value="Male" name="Gender">MALE
+                        <input type="radio" value="Female" name="Gender">FEMALE</td></tr>
+                        <tr>
+                        	<td><b><label>DATE OF BIRTH</label></b></td>
+                        <td><input type="date" name="date"></td></tr>
+                        <tr><td><b><label for="Branch">BRANCH</label></b></td>
+                        	<td><select name="Branch"  value="Branch">
+                        		<option value="Select Your Branch" selected="selected" disabled="disabled">Select Your Branch</option>
+                        		<option value="CSE">CSE</option>
+                        		<option value="ME">ME</option>
+                        		<option value="IT">IT</option>
+                        		<option value="EE">EE</option></td></tr>
+                        	</select>
+                        	<tr><td><b><label>ADDRESS</label></b></td>
+                        		<td><textarea rows="6" cols="20"></textarea></td></tr>
+                        			<tr><td><b><label for="Sport1"> HOBBIES</label></b></td>
+                        	        <td>Playing<input type="checkbox" name="">
+                                    Dancing<input type="checkbox" name="">
+                                    Swimming<input type="checkbox" name=""></td>      
+			                       </table><br>
+			                       <input style="background-color:#00f3ff" type="Submit" value="Submit">
+		                           </form>
+		
+	                               </center>
+
+</body>
+</html>

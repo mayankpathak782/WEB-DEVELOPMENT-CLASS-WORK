@@ -1,0 +1,189 @@
+body{
+		background: -webkit-radial-gradient(blue, red, green, pink, deeppink, yellow,tomato, white, cyan, violet, green, black, orange);
+	}
+	#qq{
+		border:double;
+		border-width: 5px;
+		border-color: red;
+		font-style: italic;
+		font-weight: bold;
+		color: honeydew;
+		height: 100px;
+		margin-left: 15px;
+		margin-right: 5px ;
+		margin-bottom: 10px;
+		font-size: 60px;
+		text-align: center;
+		padding-top: 30px;
+		background: -webkit-radial-gradient(blue, red, green, pink, deeppink, yellow,tomato, white, cyan, violet, green, black, orange);
+	}
+	img{
+		height: 300px;
+		width: 420px;
+	}
+	#cc{
+		border: 2px solid;
+		height: 300px;
+		overflow: hidden;
+		float: left;
+		margin-left: 13px;
+		border: double;
+		border-width: 5px;
+		border-color:;
+	    background: -webkit-linear-gradient(blue, red, green, pink, deeppink, yellow,tomato, white, cyan, violet, green, black, orange);
+
+	}
+	#vv{
+		border: 2px solid ;
+		height: 300px;
+		overflow: hidden;
+		float: left;
+		margin-left: 13px;
+		border: double;
+		border-width: 5px;
+		border-color: ;
+		background: -webkit-linear-gradient(blue, red, green, pink, deeppink, yellow,tomato, white, cyan, violet, green, black, orange);
+
+	}
+	#kk{
+		border: 2px solid;
+		height: 300px;
+		overflow: hidden;
+		float: left;
+		margin-left: 13px;
+		border: double;
+		border-width: 5px;
+		border-color: ;
+		background: -webkit-linear-gradient(blue, red, green, pink, deeppink, yellow,tomato, white, cyan, violet, green, black, orange);
+
+	}
+	#aa{
+		font-size: 30px;
+		font-style: italic;
+		border: 2px solid;
+		height: 300px;
+		overflow: scroll;
+		float: left;
+		margin-left: 13px;
+		margin-top: 10px;
+		border: double;
+		border-width: 5px;
+		border-color: royalblue;
+		background: -webkit-linear-gradient(blue, red, green, pink, deeppink, yellow,tomato, white, cyan, violet, green, black, orange);
+
+	}
+	#bb{
+		font-size: 30px;
+		font-style: italic;
+		border: 2px solid;
+		height: 300px;
+		overflow: scroll;
+		float: left;
+		margin-left: 13px;
+		margin-top: 10px;
+		border: double;
+		border-width: 5px;
+		border-color: royalblue;
+		background: -webkit-linear-gradient(blue, red, green, pink, deeppink, yellow,tomato, white, cyan, violet, green, black, orange);
+	}
+	#ll{
+		font-size: 30px;
+		font-style: italic;
+		border: 2px solid;
+		height: 300px;
+		overflow: scroll;
+		float: left;
+		margin-left: 13px;
+		margin-top: 10px;
+		border: double;
+		border-width: 5px;
+		border-color: royalblue;
+		background: -webkit-linear-gradient(blue, red, green, pink, deeppink, yellow,tomato, white, cyan, violet, green, black, orange);
+
+	}
+	#jk{
+		font-size: 10px;
+        border: double;
+		border-width: 5px;
+		border-color: red;
+		font-style: italic;
+		font-weight: bold;
+		color: blue;
+		height: 100px;
+		font-size: 60px;
+		margin-top: 645px;
+		margin-left: 15px;
+		margin-right:3px ;
+		text-align: center;
+		border-color: mediumvioletred;
+		padding-bottom: 10px;
+		background: -webkit-radial-gradient(blue, red, green, pink, deeppink, yellow,tomato, white, cyan, violet, green, black, orange);
+	}
+	#ak{
+		height: 80px;
+		width: 250px;
+		margin-left: 500px;
+		margin-top: 15px;
+	}
+	/*--------------------------------------Multiple Animation---------------------------------------------------*/
+
+	#cc{
+   height: 300px;
+   width: 420px;
+   transition: height 2s, width 2s, transform 2s;
+  }
+  #cc:hover{
+   height: 300px;
+   width:420px;
+   transform: rotate(360deg);
+  }
+  #vv{
+   height: 300px;
+   width: 420px;
+   transition: height 2s, width 2s, transform 2s;
+  }
+  #vv:hover{
+   height: 300px;
+   width:420px;
+   transform: rotate(360deg);
+  }
+  #kk{
+   height: 300px;
+   width: 420px;
+   transition: height 2s, width 2s, transform 2s;
+  }
+  #kk:hover{
+   height: 300px;
+   width:420px;
+   transform: rotate(360deg);
+  }
+  #aa{
+   height: 300px;
+   width: 420px;
+   transition: height 2s, width 2s, transform 2s;
+  }
+  #aa:hover{
+   height: 300px;
+   width:420px;
+   transform: rotate(360deg);
+  }
+  #bb{
+   height: 300px;
+   width: 420px;
+   transition: height 2s, width 2s, transform 2s;
+  }
+  #bb:hover{
+   height: 300px;
+   width:420px;
+   transform: rotate(360deg);
+  }
+  #ll{
+   height: 300px;
+   width: 420px;
+   transition: height 2s, width 2s, transform 2s;
+  }
+  #ll:hover{
+   height: 300px;
+   width:420px;
+   transform: rotate(360deg);
+  }

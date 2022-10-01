@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		div{
+			color: red;
+			display: block;
+		}
+		body{
+			background-color: lightcyan	;
+		}
+	</style>
+	<script type="text/javascript">
+		function validation(){
+	        var data,dob,mn,add;
+	        var a=document.getElementById("username").value;
+            var b=document.getElementById("date").value;
+            var c=document.getElementById("mobile").value;
+            var email=document.getElementById("email");
+            var filter= /^([a-zA-Z0-9\_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{3,9})+$/;
+            var address=document.getElementById("address").value;
+            if(a=="null" || a==""){
+            	data="name can't be blank";
+            }
+            else{
+            	data="";
+            }
+             if(b=="null" || b=="") {
+            	dob="Date can't be blank";
+            }
+            else{
+            	dob="";
+            }
+             if(isNaN(c) || c.length!=10) {
+            	mn="Input not valid";
+            }
+            else{
+            	mn="";
+            }
+             if(!filter.test(email.value)) {
+                alert("please provide a valid email number");
+            }
+             if(address=="null" || address==""){
+            	add="address can't be blank";
+            }
+            else{
+            	add="";
+            	alert("Submitted Successfully!");
+            }
+         document.getElementById("dd").innerHTML=data;
+         document.getElementById("cc").innerHTML=dob;
+         document.getElementById("ll").innerHTML=mn;
+         document.getElementById("ad").innerHTML=add;
+
+}
+	</script>
+</head>
+<body>
+		<center>
+	<table border="1px" cellpadding="30" cellspacing="10">
+		<form>
+		<tr><td><label><b>Username:</b></label></td>
+			<td><input type="text" placeholder="Username" id="username" name="user"><div id="dd"></div></td></tr>
+	    <tr><td><label><b>Date Of Birth:</b></label></td>
+	    	<td><input type="date" id="date" name="pass"><div id="cc"></div></td></tr>
+        <tr><td><label><b>Mobile Number:</b></label></td>
+        	<td><input type="text" id="mobile" name="cont"><div id="ll"></div></td></tr>
+       	<tr><td><label><b>Email:</b></label></td>
+       		<td><input type="text" id="email" name="em"><div id="em"></div></td></tr>
+       		<tr><td><label><b>Address:</b></label></td>
+       		<td><input type="text" id="address" name=""><div id="ad"></div></td></tr><br>
+       		</form>
+       		</table><br>
+       		<input type="submit" value="Submit" onclick="validation()">
+      </center>
+</body>
+</html>

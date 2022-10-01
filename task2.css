@@ -1,0 +1,119 @@
+#header{
+	height: 150px;
+	width: 1301px;
+	border: 1px solid red;
+	margin: auto;
+	background: -webkit-linear-gradient(red,black,orange,violet,green,yellow,aliceblue,skyblue,tomato,darkcyan,lightcyan);
+}
+#menu{
+	height: 40px;
+	width: 1301px;
+	border: 1px solid red;
+	margin: auto;
+}
+#content{
+	height: 300px;
+	width: 1300px;
+	border: 1px solid red;
+	margin: auto;
+	margin-top: 0px;
+}
+#footer{
+	border: 1px solid red;
+	height: 120px;
+	width: 1300px;
+	margin: auto;
+	font-size: 30px;
+	color: white;
+	line-height: 120px;
+	font-style: italic;
+	text-align: center;
+	background: -webkit-radial-gradient(red,black,orange,violet,green,yellow,aliceblue,skyblue,tomato,darkcyan,lightcyan);
+
+}
+h1{
+	height: 100px;
+	width: 400px;
+	line-height: 170px;
+	text-align: center;
+	margin: auto;
+	font-style: italic;
+	font-size: 40px;
+}
+ul{
+	margin: 0px;
+	padding: 0px;
+}
+li{
+	height: 40px;
+	width: 214.8px;
+	float: left;
+	list-style: none;
+	display: inline-block;
+	text-align: center;
+	line-height: 40px;
+	border: 1px solid;
+	font-size: 20px;
+	color: white;
+}
+ul li a{
+	text-decoration: none;
+	background-color: black;
+	color: white;
+	display: block;
+}
+ul li a:hover{
+	text-decoration: underline;
+	background-color:deeppink;
+	color: black;
+    font-size: 22px;
+}
+ul li ul{
+	background-color: pink;
+	display: none;
+}
+ul li:hover ul{
+	display: block;
+}
+#left{
+	height: 300px;
+	width: 433px;
+	border: 1px solid black;
+	float: left;
+	background-color: #cccccc;
+}
+#right{
+	height: 300px;
+	width: 430px;
+	border: 1px solid black;
+	float: left;
+	z-index: -1;
+	position: relative;
+	background-image: url("images/j.jpg");
+	background-color: #cccccc;
+	background-repeat: no-repeat;
+	background-size: 450px 450px;
+	opacity: 0.9;
+}
+#ss{
+	height: 300px;
+	width: 428px;
+	border: 1px solid red;
+	margin-left: 867px;
+	transition: height 2s, width 2s, transform 2s;
+
+}
+	#ss:hover{
+		height: 300px;
+		width: 427px;
+		transform: rotate(360deg);
+	}
+
+img{
+	height: 300px;
+	width: 432px;
+
+}
+h2{
+	font-style: italic;
+}

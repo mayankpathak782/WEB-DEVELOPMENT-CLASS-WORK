@@ -1,0 +1,29 @@
+<!--------------------------------------------Email Validation in Java Script-------------------------------------->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<script type="text/javascript">
+		function checkEmail()
+		{
+			var email=document.getElementById('txtEmail');
+			var filter=/^([a-zA-Z0-9\_\.\-])+\@(([a-z A-Z0-9\-])+\.)+([a-zA-z0-9]{3,9})+$/;
+			if(!filter.test(email.value)){
+				alert("Please provide a valid email address!");
+			}
+			else{
+				alert("Submitted Successfully!");
+			}
+		}
+	</script>
+</head>
+<body>
+	<form>
+		<input type="text" id="txtEmail" name="">
+		<input type="submit" onclick="checkEmail()" name="">
+	</form>
+
+</body>
+</html>

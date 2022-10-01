@@ -1,0 +1,88 @@
+<!----------------------------------------------JAVA SCRIPT-------------------------------------
+
+It is an object based scripting language that is light weight and cross platform.
+
+Java Script is used for client side validation.
+
+Java Script is not compiled but translated.
+
+The Java Script translator is responsible to translate the java script code.
+
+-----------------------------------------------Variable----------------------------------------
+
+ The Variable is the name of the memory location where the value is stored.
+
+ We will use var keyword to make variable.
+
+ ------------------------There are two types of variable---------------------------------------
+
+ 1).Local Variable- the variable that are declares inside the function is called as local variable.
+ 2).Global Variable- the variable that are declares outside the function is called as local variable.
+
+
+
+
+----------------------->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Java Script</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var a=40;
+		var b=30;
+		var sum=a+b;
+		document.write("sum = "+sum +"<br>");
+	</script>
+<!---------------------Local Vairable------------------------>	
+	<script type="text/javascript">			
+		function ADD() {
+		var a=10;
+		var b=90.6;
+		var sum=a+b;
+		document.write("ADD = "+sum +"<br>");
+		}
+		function SUB() {
+		var a=100;
+		var b=50;
+		var SUB=a-b;
+		document.write("SUB = "+SUB +"<br>");
+		}
+		function Multiplication() {
+		var a=30;
+		var b=90;
+		var Multiplication=a*b;
+		document.write("Multiplication = "+Multiplication +"<br>");
+		}
+		function Division() {
+		var a=100;
+		var b=200;
+		var Division=a/b;
+		document.write("Division = "+Division +"<br>");
+		}
+		ADD();
+		SUB();
+		Multiplication();
+		Division();
+	</script>
+<!----------------Global Variable-------------------->
+	<script type="text/javascript">
+		var data ="mayank"
+		function abb(){
+			document.write(data +"<br>");
+		}
+		function xyz()
+		{
+			document.write(data +"<br>");
+		}
+		document.write(data +"<br>");
+        abb();
+        xyz();
+	</script>
+
+</body>
+</html>

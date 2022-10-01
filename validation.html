@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript">
+		function display()
+		{
+			var name=document.mayank.name.value;
+			var pass=document.mayank.pass.value;
+			if(name ==""||name=="null")
+			{
+				alert("name can't be blank");
+			}
+			else if(pass.length<6)
+			{
+				alert("password must be atleast 6 characters");
+			}
+			else{
+				alert("Submitted Successfully");
+			}
+		}
+	</script>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<form name="mayank">
+		username:<input type="text" name="name">
+		password:<input type="password" name="pass">
+		<input type="submit" value="submit" onclick="display()">
+	</form>
+
+</body>
+</html>

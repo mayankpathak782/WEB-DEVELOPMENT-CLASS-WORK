@@ -1,0 +1,93 @@
+#ma{
+	color: darkred;
+	background-color: pink;
+	text-align: center;
+	font-size: 50px;
+	font-style: italic;
+}
+/*----------------------------------border Property ------------------------------*/
+#aa{
+	border-color: red;
+	font-style: italic;
+	border-style: none;
+}
+#bb{
+	border-width: 4px;
+	border-color: blueviolet;
+	font-style: italic;
+	border-style: dotted;
+}
+#cc{
+
+	border: dashed 4px blue ;
+}
+#dd{
+	border-color: cyan;
+	font-style: italic;
+	border-style: solid;
+}
+#ee{
+	border-color: pink;
+	font-style: italic;
+	border-style: double;
+}
+#ff{
+	border-color: darkred;
+	font-style: italic;
+	border-style: groove;
+}
+#gg{ 
+	border-color: darkblue;
+	font-style: italic;
+	border-style: outset;
+}
+#hh{
+	border-color: darkcyan;
+	font-style: italic;
+	border-style: inset;
+}
+#ii{
+	border-color: yellowgreen;
+	font-style: italic;
+	border-style: ridge;
+}
+#jj{
+	border-color: purple;
+	font-style: italic;
+	border-style: hidden;
+}
+/*----------------------------------------float Property----------------------------------*/
+#mm{
+	float: left;
+}
+#ll{
+	opacity: 0.2;
+}
+#dk{
+	height: 200px;
+	width: 200px;
+	background-color: hotpink;
+	border: 1px solid;
+	overflow: scroll;
+}
+#jk{
+	height: 200px;
+	width: 200px;
+	background-color: red;
+	border: 1px solid;
+	overflow: hidden;
+}
+p{
+	background-color: red;
+	font-size: 40px;
+	color: white;
+}
+#mmm{
+	padding-top: 100px;
+	padding-right: 50px;
+	padding-left: 30px;
+	padding-top: 50px;
+	margin-top: 30px;
+	margin-right: 40px;
+	margin-left: 100px;
+}
